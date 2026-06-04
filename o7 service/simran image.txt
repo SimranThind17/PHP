@@ -1,0 +1,10 @@
+<html>
+<head><title> My Dream Destination</title>
+</head>
+<body>
+<h1><My Dream Destination - Disneyland</h1>
+<!--image1:same folder as a html file-->
+<img src ="disneyland enterance.jpg" alt ="Disneyland enterance">
+<p> This is the main entrance of the disneyland</p>
+</body>
+</html>
