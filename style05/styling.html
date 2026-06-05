@@ -3,23 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<link href="./style.css">
-
+    <title>My CSS asignment</title>
+    <!--External CSS Link-->
+    <link rel="stylesheet" href="style.css">
+<!--Internal CSS Link-->
 <style>
-    h2{
-        color:aqua;
+    h3{
+        color:teal;
+        font-family:Arial;
+    }
+
+    #special{
+        color:blueviolet;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .myclass{
+        color: salmon;
+        font-size: 20px;
+        font-family: Verdana;
     }
 </style>
 </head>
 <body>
-    <h1>Styling by css</h1>
+    <h1>Styling By CSS</h1>
     <h2>Inline css</h2>
-    <p style="color:beige;">This text is in the inline styling
+    <p style="color:grey">
+        CSS helps make web page attractive and colorful.Inline CSS is used when we want to style a specific element directly inside HTML tag.
     </p>
-    <h2>Internal css</h2>
-    <p>This is the internal styling in css</p>
-    <h3>External css</h3>
-    <p>This is the external styling in css</p>
+    <h3>Internal css</h3>
+    <p> Internal CSS is written inside the style tag of an html document.It helps to maintain consistency across multiple web pages and keeps the code clean and clear.</p>
+    <h3>Class Selector</h3>
+    <p class="myclass">
+        Class Selector allow us to apply the same style to multiple elements.</p>
+    <h4>External css</h4>
+    <p>External CSS is stored in a separate file and linked to html page.This makes the code oragnized, reusable,and easier to manage.</p>
+    <h5>ID Selector</h5>
+    <p id= "special">
+        ID Selector are used to style a unique element on a page.Since it should be used only once, it is helpful for highlighting important content.
+    </p>
 </body>
 </html>
