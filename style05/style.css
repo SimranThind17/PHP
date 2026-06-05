@@ -1,3 +1,20 @@
+
+.myclass{
+        color: salmon;
+        font-size: 20px;
+        font-family: Verdana;
+    }
+
+    #special{
+        color:blueviolet;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h3{
+    color: teal;
+    font-family:Arial;
+}
+
 h4{
     color:olive;
     font-size: 20px;
