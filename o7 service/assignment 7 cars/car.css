@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.petrolpump{
+    width:100%;
+    height:100vh;
+    background-image:url("background.jpg/petrolpump.jpg");
+    background-size:cover;
+    position:relative;
+    overflow:hidden;
+    
+}
+.car{
+    position:absolute;
+    width:90px;
+    height:auto;
+    
+}
+/*First car*/
+.car1{
+    bottom:70px;
+    animation-name:move1;
+    animation-duration:10s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+/*second car*/
+.car2{
+    bottom:120px;
+    animation-name:move2;
+    animation-duration:12s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+}
+/*third car*/
+.car3{
+    bottom:170px;
+    animation-name:move3;
+    animation-duration:13s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+}
+@keyframes move1{
+    from{
+        left:-120px;
+    }
+    to{
+        left:100%;
+    }
+}
+@keyframes move2{
+    from{
+        left:-300px;
+    }
+    to{
+        left:100%;
+    }
+}
+@keyframes move3{
+    from{
+        left:150px;
+    }
+    to{
+        left:100%;
+    }
+}
+/*bus*/
+.bus{
+    position:absolute;
+    width:120px;
+    bottom:2px;
+    animation-name:busmove;
+    animation-duration:15s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+}
+@keyframes busmove{
+    from{
+        left:100%;
+    }
+    to{
+        left:-200px;
+    }
+}
